@@ -67,5 +67,5 @@ deploy:
     - hello_world_executable_distributions.tar.gz 
   skip_cleanup: true
   on:
-    tags: false
+    tags: true
   
