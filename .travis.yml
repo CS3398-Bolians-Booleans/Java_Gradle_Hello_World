@@ -12,7 +12,7 @@ script:
   - export GIT_TAG=$TRAVIS_BRANCH.$TRAVIS_BUILD_NUMBER
   - gradle clean build
   - gradle dist
-  - tar -zcf hello_world_test_reports.tar.gz build/reports
+#  - tar -zcf hello_world_test_reports.tar.gz build/reports
 #  - tar -zcf hello_world_executable_distributions.tar.gz build/distributions
 
 
@@ -35,4 +35,4 @@ deploy:
     - hello_world_executable_distributions.tar.gz 
   skip_cleanup: true  
   on:
-    tags: false
+    tags: true
