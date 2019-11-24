@@ -36,4 +36,8 @@ deploy:
   skip_cleanup: true  
   on:
     tags: false
-    all_branches: true
+    # all_branches: true
+    branches:
+     only:
+     - master
+     - /v\d+\.\d+[a-z]/
