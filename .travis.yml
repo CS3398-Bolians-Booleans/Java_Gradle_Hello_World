@@ -37,4 +37,4 @@ deploy:
   on:
     tags: true
 #    all_branches: true
-    branch: release
+    branch: master
