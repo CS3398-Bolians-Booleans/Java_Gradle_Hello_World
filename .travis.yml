@@ -33,7 +33,7 @@ deploy:
     - README.md
     - hello_world_test_reports.tar.gz 
     - hello_world_executable_distributions.tar.gz 
-  skip_cleanup: true  
+  skip_cleanup: true
   on:
     tags: true
  #   all_branches: true
