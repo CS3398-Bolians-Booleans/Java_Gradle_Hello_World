@@ -40,5 +40,5 @@ deploy:
     
 branches:
   only:
-    - development
+#    - development
     - master
