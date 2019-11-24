@@ -38,3 +38,7 @@ deploy:
     tags: true
  #   all_branches: true
     
+branches:
+  only:
+    - development
+    - master
