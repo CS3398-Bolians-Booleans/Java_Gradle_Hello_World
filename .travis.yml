@@ -37,8 +37,5 @@ deploy:
   on:
     tags: true
  
-branches:
-  only:
-    - development
-    - stavros 
+
     
