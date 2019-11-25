@@ -2,11 +2,13 @@ dist: xenial
 
 language: java
 install: true
+
 branches:
   only:
   - master
   - develop
   - "/\\d+\\.\\d+\\.\\d+?.*/"
+ 
 matrix: 
   include: 
   - jdk: oraclejdk9
