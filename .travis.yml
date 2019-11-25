@@ -41,6 +41,7 @@ deploy:
     - hello_world_executable_distributions.tar.gz 
     
   on:
+    branch: stavros
     tags: true
  
 
