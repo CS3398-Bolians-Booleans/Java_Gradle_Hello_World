@@ -38,6 +38,6 @@ deploy:
 on:
   tags: true
   repo: CS3398-Bolians-Booleans/Java_Gradle_Hello_World
-  all_branches: true
+ 
 
     
