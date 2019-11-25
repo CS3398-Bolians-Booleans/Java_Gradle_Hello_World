@@ -3,12 +3,6 @@ dist: xenial
 language: java
 install: true
 
-branches:
-  only:
-  - master
-  - develop
-  - "/\\d+\\.\\d+\\.\\d+?.*/"
- 
 matrix: 
   include: 
   - jdk: oraclejdk9
@@ -44,6 +38,10 @@ deploy:
 on:
   tags: true
   repo: CS3398-Bolians-Booleans/Java_Gradle_Hello_World
- 
-
+  
+branches:
+  only:
+  - master
+  - develop
+  - "/\\d+\\.\\d+\\.\\d+?.*/"
     
